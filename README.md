@@ -21,11 +21,11 @@ sudo pip install boto3 wikipedia
 ```
 
 You will also need to obtain an API code from the following:
-
+```
 AWS Polly
 WolframAlpha
 ***New York Times (WIP)
-
+```
 ```
 import wolframalpha
 import wikipedia
