@@ -10,7 +10,7 @@ This program was built on Ubuntu 17.04
 
 You will need the following:
 
-'''
+```
 import wolframalpha
 import wikipedia
 import wx
@@ -24,7 +24,7 @@ import os
 import sys
 import random
 import webbrowser
-'''
+```
 
 ## Authors
 
