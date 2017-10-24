@@ -69,17 +69,6 @@ def command(search):
 			else: extra="oh"
 			zedtalk("the time is"+str(timeh)+extra+str(timem)+ampm)
 
-	elif "pump me up" in search :
-		zedtalk("Wake up in the morning feelin' like Mike Ford.")
-
-	elif "sing" in search :
-		if "blood on the risers" in search or "blood" in search :
-			zedtalk("He was just a cherry trooper and he surely shook with fright, "
-				"as he checked all his equipement and made sure his pack was tight, "
-				"He had to sit and listen to the awful engines roar, "
-				"And he ain't gonna jump no more, "
-				"Gory, gory, What a helluva way to die , Gory, gory, What a helluva way to die , Gory, gory, What a helluva way to die , He ain't gonna jump no more.")
-
 	elif "hello" in search or "good morning" in search or "hi" in search :
 		zedtalk("Hello, Today is a fantastic day. What can I help you with?")
 
