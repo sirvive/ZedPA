@@ -11,6 +11,12 @@ This program was built on Ubuntu 17.04
 You will need the following:
 
 ```
+sudo apt-get install wolfram-engine python-wxgtk2.8 python-pygame python-pywapi python-pyaudio python3-pyaudio chromium-browser
+
+sudo pip install boto3 wikipedia
+```
+
+```
 import wolframalpha
 import wikipedia
 import wx
@@ -32,5 +38,7 @@ import webbrowser
 
 ## Acknowledgments
 
-* Khanrad
+* Khanrad -- https://github.com/KhanradCoder/
+
+I appreciate any advice or contributions. Thank you.
 
