@@ -2,6 +2,10 @@
 
 Zed is a personal assistant that uses voice or text to open browsers, check the time, search Wikipedia, or calculate basic math problems.
 
+Zed gets its voice from Amazons Polly API, wits from Wikipedia and WolframAlpha, and goodlooks from Skynet.
+
+***Currently working to add a New York Times article generator.
+
 ## Getting Started
 
 This program was built on Ubuntu 17.04
@@ -15,6 +19,12 @@ sudo apt-get install wolfram-engine python-wxgtk2.8 python-pygame python-pywapi 
 
 sudo pip install boto3 wikipedia
 ```
+
+You will also need to obtain an API code from the following:
+
+AWS Polly
+WolframAlpha
+***New York Times (WIP)
 
 ```
 import wolframalpha
